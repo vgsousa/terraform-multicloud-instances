@@ -2,9 +2,11 @@
 
 Este repositório contém um exemplo de código Terraform que provisiona máquinas virtuais em ambientes de nuvem diferentes: AWS e Azure. Essa abordagem demonstra como é possível implementar uma solução multicloud usando Terraform.
 
-Detalhes:
-> Neste exemplo, adotei variáveis de ambiente para fácil execução local e na pipeline.
-> No Security Group está liberado apenas a porta 22.
+![Esboço do Projeto](schema.jpg)
+
+#### Detalhes:
+- Neste exemplo, adotei variáveis de ambiente para fácil execução local e na pipeline. 
+- No Security Group está liberado apenas a porta 22.
 
 ## Pré-requisitos
 
